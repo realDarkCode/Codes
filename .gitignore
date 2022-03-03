@@ -1,5 +1,6 @@
 // all visual studio settings congig
 .vscode
 .code-workspace
+*/*.code-workspace
 // C programming files
-C/*.exe
+C/**/*.exe
