@@ -3,6 +3,7 @@
 .code-workspace
 */*.code-workspace
 // C programming files
+// C programming files
 C/**/*.exe
 
 // local directories
@@ -10,4 +11,3 @@ My Softwere/
 Project/
 python/
 Sessions/
-.code-workspace
