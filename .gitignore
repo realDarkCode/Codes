@@ -3,9 +3,10 @@
 .code-workspace
 */*.code-workspace
 // C programming files
-// C programming files
 C/**/*.exe
 
+// Java
+Java/**/*.pdf
 // local directories
 My Softwere/
 Project/
