@@ -42,9 +42,29 @@ public class Practice_set_01 {
         sc.close();
     }
 
+    static void kilometerToMiles() {
+        // ? Write a Java program to convert Kilometers to miles.
+        float kilometer = 7.656f;
+        float miles = kilometer / 1.609f;
+        System.out.println(miles);
+    }
+
+    static void isInteger() {
+        // ? Write a Java program to detect whether a number entered by the user is an
+        // ? integer or not.
+        System.out.println("Input something to check whether it is a Integer or not");
+        Scanner sc = new Scanner(System.in);
+        // sc.nextInt();
+        boolean isInt = sc.hasNextInt();
+        sc.close();
+        System.out.println(isInt);
+    }
+
     public static void main(String[] args) {
         // sumOfThreeNumber();
         // calculateCGPA();
-        greedUser();
+        // greedUser();
+        // kilometerToMiles();
+        isInteger();
     }
 }
