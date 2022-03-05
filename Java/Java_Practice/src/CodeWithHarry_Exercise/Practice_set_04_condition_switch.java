@@ -24,16 +24,16 @@ public class Practice_set_04_condition_switch {
         // ? Question 2: Write a program to find out whether a student is pass or fail;
         // ? if it requires a total of 40% and at least 33% in each subject to pass.
         // ? Assume 3 subjects and take marks as input from the user.
-        int mark1, mark2, mark3;
+        byte mark1, mark2, mark3;
         float percentage;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your 3 subject marks:");
-        mark1 = sc.nextInt();
-        mark2 = sc.nextInt();
-        mark3 = sc.nextInt();
+        mark1 = sc.nextByte();
+        mark2 = sc.nextByte();
+        mark3 = sc.nextByte();
         sc.close();
-        percentage = (mark1 + mark2 + mark3) / 300.0f * 100.0f;
-        if (mark1 >= 33 && mark2 >= 33 && mark3 >= 33 && percentage >= 40) {
+        percentage = (mark1 + mark2 + mark3) / 3.0f;
+        if (percentage >= 40 && mark1 >= 33 && mark2 >= 33 && mark3 >= 33) {
             System.out.println("you are passed!");
         } else {
             System.out.println("You are failed, better luck next time.");
@@ -49,22 +49,24 @@ public class Practice_set_04_condition_switch {
         // * Note that there is not tax below 2.5L. Take the input amount as input from
         // * the user.
         Scanner sc = new Scanner(System.in);
-        float amount = sc.nextFloat();
+        System.out.println("Enter your income in Lakhs per annum");
+        float tax = 0;
+        float income = sc.nextFloat();
         sc.close();
-        int tax = 0;
-        if (amount >= 2.5 && amount < 5.0) {
-            tax = 5;
-        } else if (amount >= 5.0 && amount < 10.0) {
-            tax = 20;
-        } else if (amount >= 10.0) {
-            tax = 30;
+        if (income <= 2.5) {
+            tax = tax + 0;
+        } else if (income > 2.5f && income <= 5f) {
+            tax = tax + 0.05f * (income - 2.5f);
+        } else if (income > 5f && income <= 10.0f) {
+            tax = tax + 0.05f * (5.0f - 2.5f);
+            tax = tax + 0.2f * (income - 5f);
+        } else if (income > 10.0f) {
+            tax = tax + 0.05f * (5.0f - 2.5f);
+            tax = tax + 0.2f * (10.0f - 5f);
+            tax = tax + 0.3f * (income - 10.0f);
         }
-        if (tax > 0) {
 
-            System.out.println("you have to pay: " + tax + "% tax");
-        } else {
-            System.out.println("You don't have to pay any taxes");
-        }
+        System.out.println("The total tax paid by the employee is: " + tax);
     }
 
     static void problem4() {
@@ -104,14 +106,14 @@ public class Practice_set_04_condition_switch {
         // .com – commercial website
         // .org – organization website
         // .in – Indian website
-        
+
         // String url = "https://www.google.com";
         String url = "https://www.darkCode.org";
-        if (url.indexOf(".com") >= 0) {
+        if (url.endsWith(".com")) {
             System.out.println("Commercial Website");
-        } else if (url.indexOf(".org") >= 0) {
+        } else if (url.endsWith(".org")) {
             System.out.println("Organization Website");
-        } else if (url.indexOf(".in") >= 0) {
+        } else if (url.endsWith(".in")) {
             System.out.println("Indian Website");
         }
     }
