@@ -8,6 +8,7 @@ C/**/*.exe
 // Java
 Java/**/*.pdf
 // local directories
+Java/**/bin/
 My Softwere/
 Project/
 python/
