@@ -1,4 +1,4 @@
-package CodeWithHarry_Exercise;
+package CodeWithHarry_Exercise.Practice_set;
 
 public class Practice_set_06_array {
     public static void problem1() {

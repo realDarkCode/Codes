@@ -1,4 +1,4 @@
-package CodeWithHarry_Exercise;
+package CodeWithHarry_Exercise.Practice_set;
 
 public class Practice_set_07_method {
     static void multiplicationTable(int n) {

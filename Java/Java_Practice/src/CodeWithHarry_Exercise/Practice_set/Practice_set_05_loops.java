@@ -1,4 +1,4 @@
-package CodeWithHarry_Exercise;
+package CodeWithHarry_Exercise.Practice_set;
 
 /**
  * Practice_set_05_loops

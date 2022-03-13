@@ -1,4 +1,4 @@
-package CodeWithHarry_Exercise;
+package CodeWithHarry_Exercise.Exercise;
 
 import java.util.Scanner;
 

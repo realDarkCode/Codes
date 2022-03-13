@@ -1,4 +1,4 @@
-package CodeWithHarry_Exercise;
+package CodeWithHarry_Exercise.Practice_set;
 
 public class Practice_set_09_access_modifier_constructor {
     static void problem1() {

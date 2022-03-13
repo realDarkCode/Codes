@@ -1,4 +1,4 @@
-package CodeWithHarry_Exercise;
+package CodeWithHarry_Exercise.Practice_set;
 
 // ? 1. Create a class Employee with the following properties and methods:
 // Salary (property) (int)
