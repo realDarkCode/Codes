@@ -23,14 +23,14 @@ package CodeWithHarry_Exercise.Practice_set;
  * Derived obj = new Derived 2( );
  * Which constructor(s) will be executed & in what order?
  */
-class Circle {
+class Circle1 {
     public int radius;
 
-    Circle() {
+    Circle1() {
         System.out.println("I am non param of circle");
     }
 
-    Circle(int r) {
+    Circle1(int r) {
         System.out.println("I am circle parameterized constructor");
         this.radius = r;
     }
@@ -40,7 +40,7 @@ class Circle {
     }
 }
 
-class Cylinder1 extends Circle {
+class Cylinder1 extends Circle1 {
     public int height;
 
     Cylinder1(int r, int h) {
