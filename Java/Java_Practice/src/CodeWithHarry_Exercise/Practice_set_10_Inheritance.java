@@ -59,5 +59,6 @@ public class Practice_set_10_Inheritance {
         // Problem 1
         // Circle objC = new Circle(12);
         Cylinder1 obj = new Cylinder1(12, 4);
+        System.out.println("The volume of the cylinder is " + obj.volume());
     }
 }
