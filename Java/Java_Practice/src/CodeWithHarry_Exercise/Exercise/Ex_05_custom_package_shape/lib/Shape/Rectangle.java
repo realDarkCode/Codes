@@ -1,7 +1,7 @@
-package Shape;
+package CodeWithHarry_Exercise.Exercise.Ex_05_custom_package_shape.lib.Shape;
 
 public class Rectangle extends Shape {
-    Rectangle(int dimension1, int dimension2) {
+    public Rectangle(int dimension1, int dimension2) {
         super(dimension1, dimension2);
     }
 

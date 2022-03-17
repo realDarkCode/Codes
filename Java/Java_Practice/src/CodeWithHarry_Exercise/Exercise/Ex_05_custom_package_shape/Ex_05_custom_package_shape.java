@@ -1,4 +1,7 @@
-package Shape;
+package CodeWithHarry_Exercise.Exercise.Ex_05_custom_package_shape;
+
+import CodeWithHarry_Exercise.Exercise.Ex_05_custom_package_shape.lib.Shape.Circle;
+import CodeWithHarry_Exercise.Exercise.Ex_05_custom_package_shape.lib.Shape.Rectangle;
 
 public class Ex_05_custom_package_shape {
     public static void main(String[] args) {

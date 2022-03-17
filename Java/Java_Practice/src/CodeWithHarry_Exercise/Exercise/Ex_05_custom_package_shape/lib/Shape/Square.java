@@ -1,4 +1,4 @@
-package Shape;
+package CodeWithHarry_Exercise.Exercise.Ex_05_custom_package_shape.lib.Shape;
 
 public class Square extends Shape {
     Square(int dimension1) {

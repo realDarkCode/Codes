@@ -1,8 +1,8 @@
-package Shape;
+package CodeWithHarry_Exercise.Exercise.Ex_05_custom_package_shape.lib.Shape;
 
 public class Circle extends Shape {
 
-    Circle(int dimension1) {
+    public Circle(int dimension1) {
         super(dimension1, -1);
     }
 
