@@ -1,4 +1,3 @@
-package CodeWithHarry_Exercise.Practice_set;
 
 /**
  * Fully younked from: codewithHarry Website:

@@ -1,5 +1,5 @@
 // package Problem2;
-package CodeWithHarry_Exercise.Practice_set.Practice_set_12_customPackages_accessModifier;
+package Practice_set_12_customPackages_accessModifier;
 
 // ? 2. Use a build-in package in java to write a class which displays a message ( by using sout ) after taking input from the user 
 

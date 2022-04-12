@@ -1,4 +1,3 @@
-package CodeWithHarry_Exercise.Practice_set;
 
 public class Practice_set_03_String {
     static void problem1() {

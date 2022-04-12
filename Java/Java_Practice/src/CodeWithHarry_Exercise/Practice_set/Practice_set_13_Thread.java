@@ -1,4 +1,4 @@
-package CodeWithHarry_Exercise.Practice_set;
+
 
 // Question 1: Write a program to print "Good morning" and "Welcome" continuously on the screen in Java using threads.
 class WishMe extends Thread {

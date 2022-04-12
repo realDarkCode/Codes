@@ -1,5 +1,5 @@
 // package CustomCalculator;
-package CodeWithHarry_Exercise.Practice_set.Practice_set_12_customPackages_accessModifier;
+package Practice_set_12_customPackages_accessModifier;
 
 // ? 1. Create three classes calculator , Sc calculator and Hybridcalculator and group them into a package 
 
