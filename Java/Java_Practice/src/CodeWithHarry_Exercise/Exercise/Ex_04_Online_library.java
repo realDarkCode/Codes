@@ -1,4 +1,3 @@
-package CodeWithHarry_Exercise.Exercise;
 
 /**
  * You have to implement a library using Java Class "Library"

@@ -1,4 +1,3 @@
-package CodeWithHarry_Exercise.Exercise;
 
 import java.util.Scanner;
 
