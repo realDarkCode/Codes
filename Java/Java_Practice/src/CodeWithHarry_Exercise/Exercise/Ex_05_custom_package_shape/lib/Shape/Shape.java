@@ -1,5 +1,4 @@
-package CodeWithHarry_Exercise.Exercise.Ex_05_custom_package_shape.lib.Shape;
-
+package Ex_05_custom_package_shape.lib.Shape;
 public class Shape {
 
     public int dimension1, dimension2;
